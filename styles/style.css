@@ -1,0 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --primary-font: 'Poppins', sans-serif;
+  --secondary-font: 'Inter', sans-serif ;
+  --teritary-font: 'Manrope', sans-serif;
+  --text-color: #3a3a3a;
+  --btn-bg-color: #e02c6d;
+  --footer-bg-color: #0a0826;
+  --white-color: #fff;
+}
