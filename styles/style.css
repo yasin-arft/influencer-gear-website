@@ -28,6 +28,18 @@ footer .container {
 
 /* reusable */
 
+.btn-primary {
+  background-color: var(--btn-bg-color);
+  color: var(--white-color);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 24px;
+  border: 0;
+  outline: 0;
+  cursor: pointer;
+  font-weight: 700;
+}
 
 /* nav bar */
 
@@ -62,3 +74,34 @@ nav .search {
   cursor: pointer;
 }
 
+
+/* banner section */
+
+.banner {
+  display: flex;
+  align-items: center;
+  gap: 120px;
+}
+
+.banner>div {
+  flex: 1;
+}
+
+.banner-title {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 70px;
+}
+
+.banner-desc {
+  font-weight: 600;
+  padding: 16px 0;
+}
+
+.banner .btn-primary {
+  border-radius: 50px;
+}
+
+.banner img {
+  height: 100%;
+}
