@@ -26,6 +26,10 @@ footer .container {
   padding: 0 15px;
 }
 
+header {
+  max-width: 1170px;
+}
+
 section {
   margin: 100px 0;
 }
