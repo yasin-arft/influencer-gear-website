@@ -127,7 +127,7 @@ nav .search {
 
 /* popular collection section */
 
-.section-title {
+.popular-collection .section-title {
   text-align: center;
   font-size: 28px;
   font-weight: 600;
@@ -199,4 +199,30 @@ nav .search {
   background-color: var(--white-color);
   color: var(--btn-bg-color);
   padding-right: 30px;
+}
+
+/* featured product section */
+
+.featured-product {
+  display: flex;
+  align-items: center;
+  gap: 96px;
+}
+
+.featured-product .product-img {
+  border-radius: 7px;
+}
+
+.featured-product .section-title {
+  color: var(--footer-bg-color);
+  font-size: 38px;
+  font-weight: 700;
+  line-height: 60px;
+}
+
+.featured-product .section-desc {
+  color: #6C6C6C;
+  padding: 16px 0;
+  font-weight: 700;
+  line-height: 28px;
 }
