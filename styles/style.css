@@ -109,3 +109,12 @@ nav .search {
 .banner img {
   height: 100%;
 }
+
+/* sponsor section */
+
+.sponsor-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 60px;
+}
