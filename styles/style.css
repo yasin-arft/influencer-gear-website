@@ -256,3 +256,13 @@ footer p {
   line-height: 24px;
   padding: 2px 0;
 }
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  margin-top: 16px;
+}
+.social-links a {
+  text-decoration: none;
+}
