@@ -189,3 +189,14 @@ nav .search {
   line-height: 20px;
   letter-spacing: 0.252px;
 }
+
+.popular-collection .btn-container {
+  display: flex;
+  justify-content: end;
+}
+
+.popular-collection .btn-primary {
+  background-color: var(--white-color);
+  color: var(--btn-bg-color);
+  padding-right: 30px;
+}
