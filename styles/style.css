@@ -112,6 +112,11 @@ nav .search {
   border-radius: 50px;
 }
 
+.banner-img {
+  background-image: url('../images/Circle-design.svg');
+  background-repeat: no-repeat;
+}
+
 .banner img {
   height: 100%;
 }
